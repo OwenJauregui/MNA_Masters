@@ -44,6 +44,7 @@ int main(int argc, char const *argv[])
     std::cout << "Array C: ";
     printArray(array_c, arraySize, onDisplay);
 
+    delete[] array_a, array_b, array_c;
     return 0;
 }
 
